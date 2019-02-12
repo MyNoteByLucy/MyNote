@@ -1,0 +1,27 @@
+<view class="container1">
+  <view class="item1">
+    1
+  </view>
+  <view class="item1">
+    2
+  </view>
+  <view class="item1 i3">
+    3
+  </view>
+  <view class="item1">
+    4
+  </view>
+  
+  <view class="item1">
+    5
+  </view>
+  <view class="item1">
+    6
+  </view>
+  <view class="item1">
+    7
+  </view>
+  <view class="item1">
+    8
+  </view>
+</view>

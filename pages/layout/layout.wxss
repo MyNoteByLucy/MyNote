@@ -1,0 +1,27 @@
+/* pages/layout/layout.wxss */
+.container1{
+  height: 100%;
+  width: 100%;
+  display: flex;/*让方格子横向展示*/
+  /*flex-wrap: wrap;/*保证每个格子都是正方形*/
+  /*flex-flow: wrap row;/*flex-flow相当于flex-direction和flex-wrap两个属性的组合*/
+  /*justify-content: center;对齐方式为居中*/
+  /*justify-content: flex-end;对齐方式为右对齐*/
+  /*justify-content: flex-start;对齐方式为右对齐*/
+  /*justify-content: space-around;每个view左右两边都有留边*/
+  /*justify-content: space-between;/*每个view左右两边都留边，但是首尾两个view各自左右对其不留边*/
+
+}
+.item1{
+  height: 100rpx;
+  width: 100rpx;
+  background-color: cyan;
+  border: 1px solid #fff;
+  /*flex-grow:1;*/
+  flex-shrink: 1
+}
+.i3{
+  /*flex-grow: 2*/
+  flex-shrink: 0;
+  /*i3的flex-shrink为0，其余子view为1，这表示当空间不足时所有子view都等比缩小，但是i3的view保持大小不变*/
+}

@@ -1,0 +1,7 @@
+abcdefg1234567890
+<button type="default" hover-class="other-button-hover">default</button>
+<button type='primary' bindtap='btnClick'>{{btnText}}</button>
+<text wx:if="{{isTextShow}}">{{text}}</text>
+<view wx:for="{{news}}" wx:for-item="newsItem" wx:key="news">
+{{index}}:{{newsItem}}
+</view>

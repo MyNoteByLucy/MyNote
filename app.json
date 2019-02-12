@@ -1,0 +1,15 @@
+{
+  "pages":[   
+    "pages/layout/layout",
+    "pages/logs/logs",
+    "pages/templates/footer"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#EE7600",
+    "navigationBarTitleText": "WeChat123",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#8DEEEE"
+  }
+}
